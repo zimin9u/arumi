@@ -1,0 +1,15 @@
+root = true
+
+[*]
+end_of_line = lf
+chaset = utf-8
+indent_style = space
+intent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.html]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
